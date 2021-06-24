@@ -1,0 +1,6 @@
+*.png
+env/
+.vscode
+__pycache__/
+*.mp4
+old_stuff/
