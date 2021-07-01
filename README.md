@@ -63,7 +63,7 @@ Remarks:
 
 Discovering which upgrades the player has unlocked is a trivial task. 
 It is sufficient to querying a pixel near the top of each cell in the table and check if it is orange.
-Below is an example with 1 level in "Player speed" and nothing else.
+Below is an example with 1 level in "Player speed" and nothing else.  
 ![upgrades.png](/technical/deflyio/upgrades.png)
 
 # AI
