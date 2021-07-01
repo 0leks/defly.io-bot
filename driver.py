@@ -388,7 +388,7 @@ def imageSavingLoop():
         applyImageWithBorder(canvas, processedImage, minimapW + borderwidth, 2*paddingH + unprocessedH, 1)
 
 
-        cv2.imwrite(f"minimap/img{index:06d}.png", minimapRGB)
+        # cv2.imwrite(f"minimap/img{index:06d}.png", minimapRGB)
         cv2.imwrite(f"combined/img{index:06d}.png", canvas)
 
         overlay = overlay * 0.8
