@@ -28,7 +28,7 @@ This includes the scoreboard, minimap, upgrade menu, the player's drone, and the
 
 ### 2. Downscale
 
-![reducedsize.png](/technical/deflyio/reducedsize.png =720x354)
+![reducedsize.png](/technical/deflyio/reducedsize.png)
 
 > Scale down the image by a factor of 8, keeping 1 of every 64 pixels. This reduces the image size from `1920x937` to `240x118`
 Notice that the purple bullet still shows up as a few pixels. This is important for the bot to be able to avoid enemy bullets.
@@ -36,7 +36,7 @@ Notice that the purple bullet still shows up as a few pixels. This is important 
 
 ### 3. Detect Friendly/Enemy/Neutral
 
-![hsvimage.png](/technical/deflyio/hsvimage.png =720x354)
+![hsvimage.png](/technical/deflyio/hsvimage.png)
 
 > Convert to HSV and detect ownership of each pixel:
 → *_saturation_ < 20* is background
@@ -57,7 +57,7 @@ Remarks:
 - The size of the map is 250x250 squares but the minimap is only 96x96 pixels so each pixel on the minimap corresponds to approximately 2.5 squares on the map.
 - The actual position of the player is closer to the top left corner of the bounding box of the plus sign, not the center. It seems like the game developers were a little bit lazy and didn't spend the extra effort to center the plus marker around the players actual position.
 
-![unprocessedminimap.png](/technical/deflyio/unprocessedminimap.png =400x400) ![minimapimage.png](/technical/deflyio/minimapimage.png =400x400)
+![unprocessedminimap.png](/technical/deflyio/unprocessedminimap.png) ![minimapimage.png](/technical/deflyio/minimapimage.png)
 
 ## Upgrades
 
