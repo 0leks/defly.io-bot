@@ -1,5 +1,7 @@
 # Automating defly.io
 
+https://user-images.githubusercontent.com/1296131/124110163-cf7dce00-da1c-11eb-98b8-a7f0a1ec5e5b.mp4
+
 # About the game
 In defly.io, the you take control of a drone to fly around and capture territory by surrounding it with nodes and walls. Pressing space will drop a node that automatically connects a wall to the previous node. Once you complete a loop, the interior is filled in with your color and you gain some points proportional to the size of the area captured. As you gain points your drone will level up and allow you to choose from 7 different upgrades. When you encounter enemy drones you can break their territory by shooting at their nodes or by using special abilities that are unlocked at level 18. 
 
@@ -8,9 +10,7 @@ In defly.io, the you take control of a drone to fly around and capture territory
 99% of the "players" one encounters in defly.io are bots included to make the game seem active to people that try it out. These bots are quite bad and struggle to accomplish much more than not flying into enemy walls. I want to make a better bot that uses simple decision making.
 
 
-
 # Image processing 
-
 
 ## Game view
 
@@ -93,4 +93,10 @@ A few tricks help the bot by making it more greedy when it is safe
 
 The bot always moves the mouse cursor onto the nearest enemy pixel and periodically clicks and presses E to throw grenade.
 Even though this strategy is not focused and results in lots of misses, it will slowly chip away at enemy territory. 
+
+### Using the grenade to blow stuff up
+
+https://user-images.githubusercontent.com/1296131/124110275-e8867f00-da1c-11eb-83d3-45a704165117.mp4
+
+
 
